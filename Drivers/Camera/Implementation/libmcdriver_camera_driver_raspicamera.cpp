@@ -31,6 +31,7 @@ Abstract: This is a stub class definition of CDriver_RaspiCamera
 
 */
 
+#include <memory>
 #include "libmcdriver_camera_driver_raspicamera.hpp"
 #include "libmcdriver_camera_interfaceexception.hpp"
 #include "libmcdriver_camera_raspicameradeviceiterator.hpp"
