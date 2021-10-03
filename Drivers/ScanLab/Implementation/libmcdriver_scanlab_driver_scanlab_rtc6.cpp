@@ -28,6 +28,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
+#include <cmath>
 #include "libmcdriver_scanlab_driver_scanlab_rtc6.hpp"
 #include "libmcdriver_scanlab_interfaceexception.hpp"
 
@@ -35,6 +36,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define RTC6_MIN_MAXLASERPOWER 10.0f
 #define RTC6_MAX_MAXLASERPOWER 10000.0f
 
+using namespace std;
 using namespace LibMCDriver_ScanLab::Impl;
 
 /*************************************************************************************************************************
